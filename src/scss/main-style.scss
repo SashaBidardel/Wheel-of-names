@@ -1,0 +1,22 @@
+@import 'imports.scss';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url(../../assets/background_image.jpeg) no-repeat fixed center;
+    background-size:cover;
+    font-family: 'Abhaya Libre', serif;
+    
+}
+
+@media (min-width: $breakpoint-tablet) {
+    main {
+        display: flex;
+        justify-content: center;
+        margin: 1em 0;
+    }
+}
+
+

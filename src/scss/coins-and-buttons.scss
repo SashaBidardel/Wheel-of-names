@@ -1,0 +1,25 @@
+#coins-and-buttons {
+    width: 100%;
+    #messageContainer {
+        p{
+            text-align: center;
+            font-size: 1.5em;
+            padding: 2%;
+            
+        }  
+                     
+    }
+    .text-indicator{
+        font-size: 1em;
+        color: blue;
+    }
+}
+
+@media (min-width: $breakpoint-tablet) {
+    #coins-and-buttons {
+        width: 50%;
+
+
+    }
+    
+}

@@ -1,0 +1,28 @@
+#winners {
+    display: none;
+    background-color: #EEEEEE;
+    color: #494949;
+    ol {
+        width: 80%;
+        margin: 1em auto;
+        li {
+            margin: 0.8em 0;
+        }
+    }
+}
+
+@media (min-width: $breakpoint-tablet) {
+    #winners-and-players {
+        #winners {
+        display: block;
+        width: 40%;
+        }
+        h2 {
+            text-align: center;
+            padding-top: 1em;
+            font-size: 2vw;
+            } 
+    }
+
+}
+    

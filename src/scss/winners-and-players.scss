@@ -1,0 +1,12 @@
+@media (min-width: $breakpoint-tablet) {
+    #winners-and-players {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 45%;
+    justify-content: flex-start;
+    section {
+        margin: 0 1em;
+    }
+
+    }
+}
